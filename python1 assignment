@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLvVsEvdURDjbv2BNBbVHl",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NehaParveen03/my_first_report/blob/main/python1%20assignment\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Q1. Using Python script as a calculator Create the variables n, r, p and assign them values 10, 5, and 100 respectively. Then evaluate the following expression in the Python console. 𝐴 = 𝑝 (1 + 𝑟/ 100)n\n",
+        "a. 100\n",
+        " b. 162.89\n",
+        "  c. 189\n",
+        "   d. None of the above"
+      ],
+      "metadata": {
+        "id": "HH7LBRQlHXgy"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 12,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LtBGxR0yHVpP",
+        "outputId": "0c0bf32d-8335-4e97-ff9a-e72de69fa736"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "162.8894626777442\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Assign values\n",
+        "p = 100\n",
+        "r = 5\n",
+        "n = 10\n",
+        "\n",
+        "# Calculate the amount\n",
+        "A = p * (1 + r/100)**n\n",
+        "\n",
+        "# Print result\n",
+        "print(A)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "_ohhuY5hbaIo"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
